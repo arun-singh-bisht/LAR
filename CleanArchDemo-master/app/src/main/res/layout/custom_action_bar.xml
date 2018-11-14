@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/image_actionbar_left"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:src="@drawable/ic_action_back"
+            android:tint="#ffffff"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCT 26, 2018"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            />
+
+        <ImageView
+            android:id="@+id/image_actionbar_right"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:src="@drawable/ic_action_done"
+            android:tint="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
